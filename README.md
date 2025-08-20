@@ -1,66 +1,39 @@
-<div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTh6aDRqaGhya3ljdXZxMDVwbmxvazVudjg2Y2g0Z3g2ZXRqM3lpbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K3htdZ1XuVWVD5DZDZ/giphy.gif" width="500"/>
-  <h1>Hi, I'm Hamed Kazemi 👋</h1>
-  <p>🚀 Flutter & Mobile Developer | Turning ideas into real-life apps</p>
-</div>
+# ✨ Who am I?
+I'm **Hamed Kazemi**, a passionate **Flutter & Fullstack Developer** who loves building social applications.  
+Currently I'm working on <a href="https://github.com/hamed75kazemii/2gether" target="_blank">2gether</a>, a social media app designed to bring people together in real life.  
+
+# 🚀 What I Do
+* 📱 Flutter & Mobile App Development (iOS & Android)
+* 🌐 Backend & API Integration
+* 🎯 Building Social Media Platforms
+* 🛠️ Exploring new tools, frameworks, and modern technologies
+
+# 💻 Tech Stack
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) 
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)  
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)  
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  
+
+# 💬 Let's Connect  
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hamed_kzy)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yourmail@gmail.com?subject=Collaboration%20Request)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamed--kazemi)  
 
 ---
 
-<div align="center">
-  <a href="https://github.com/hamed75kazemii/2gether">
-    <img src="https://img.shields.io/badge/2gether-🎯-brightgreen?style=for-the-badge" alt="2gether"/>
-  </a>
-  <a href="https://github.com/hamed75kazemii/pro_chef">
-    <img src="https://img.shields.io/badge/Chef_Pro-🍳-yellow?style=for-the-badge" alt="Chef Pro"/>
-  </a>
-</div>
+<p align="center">
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="250" alt="pixel-coding-gif"/>
+</p>
 
----
-
-### 🔭 I’m currently working on
-- [2gether](https://github.com/hamed75kazemii/2gether) – Social app to connect people & create real-life activities 🌐  
-- [Chef Pro](https://github.com/hamed75kazemii/pro_chef) – Smart cooking assistant app powered by AI 🍳
-
----
-
-### 🌱 I’m learning
-- Advanced Flutter & iOS development 🍏  
-- Backend APIs & scalable architectures ⚡  
-
----
-
-### 💬 Ask me about
-Flutter, Dart, Mobile architecture, UI/UX design, AI integration 🤖  
-
----
-
-### 📫 Reach me
-[![Gmail Badge](https://img.shields.io/badge/-hamed75kazemii@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:hamed75kazemii@gmail.com)  
-[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/hamed--kazemi/)
-
----
-
-### 📊 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hamed75kazemii&show_icons=true&theme=radical" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hamed75kazemii&layout=compact&theme=radical" width="48%" />
-</div>
-
----
-
-### 📈 Contribution Graph
-<div align="center">
-  ![Hamed's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=hamed75kazemii&theme=react-dark&hide_border=true)
-</div>
-
----
-
-### ⚡ Fun Fact
-- Always experimenting with new app ideas & AI integrations 💡  
-- Passionate about creating projects that turn online connections into real experiences 🌍  
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=hamed75kazemii&color=blue" alt="Visitor Count" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
+</picture>
