@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import { GlobeIcon, SunIcon, MoonIcon } from "../icons.jsx";
 
 const scrollTo = (id) => {
@@ -5,8 +6,22 @@ const scrollTo = (id) => {
 };
 
 export default function Navbar({ t, theme, onToggleLang, onToggleTheme }) {
+  const [hidden, setHidden] = useState(false);
+  const lastY = useRef(0);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const y = window.scrollY;
+      if (y < 80) setHidden(false);
+      else if (Math.abs(y - lastY.current) > 8) setHidden(y > lastY.current);
+      lastY.current = y;
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <header className="navbar">
+    <header className={`navbar ${hidden ? "navbar-hidden" : ""}`}>
       <div className="navbar-actions">
         <button className="icon-btn" onClick={onToggleLang} aria-label="Toggle language">
           <GlobeIcon size={20} />

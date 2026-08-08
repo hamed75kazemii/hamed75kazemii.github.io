@@ -92,6 +92,11 @@ a {
   padding: 12px 28px;
   background: var(--navbar-bg);
   backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.navbar-hidden {
+  transform: translateY(-110%);
 }
 
 .navbar-actions {
