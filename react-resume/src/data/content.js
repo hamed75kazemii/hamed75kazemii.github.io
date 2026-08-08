@@ -257,7 +257,7 @@ export const projects = [
   {
     id: "dopin",
     title: "Dopin",
-    image: "images/dopin.svg",
+    image: "images/dopin.png",
     date: { en: "2025", fa: "۱۴۰۴" },
     description: {
       en: "Location-based social app for discovering local events and connecting with like-minded people in your city.",
@@ -311,7 +311,7 @@ export const projects = [
       en: "Senior Flutter Developer - Led team of 4, implemented Clean Architecture and CI/CD pipeline",
       fa: "توسعه‌دهنده ارشد فلاتر - مدیریت تیم ۴ نفره، پیاده‌سازی معماری Clean Architecture و CI/CD",
     },
-    status: "dev",
+    status: "done",
     link: "https://apps.apple.com/us/app/2gether-social/id6740913405",
     videoUrl: "https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4",
     appStore: "https://apps.apple.com/us/app/2gether-social/id6740913405",
@@ -332,7 +332,7 @@ export const projects = [
       en: "AI & Flutter Engineer - OpenAI API integration, implemented food recommendation algorithms and creative UI/UX",
       fa: "مهندس هوش مصنوعی و فلاتر - یکپارچه‌سازی OpenAI API، پیاده‌سازی الگوریتم‌های پیشنهاد غذا و UI/UX خلاقانه",
     },
-    status: "dev",
+    status: "done",
     link: "",
     videoUrl: "https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_2mb.mp4",
     appStore: "https://apps.apple.com/us/app/prochef/id1234567891",
