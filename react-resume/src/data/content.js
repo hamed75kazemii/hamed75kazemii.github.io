@@ -249,7 +249,7 @@ export const content = {
 export const socials = {
   email: "mailto:hamed75kazemii@gmail.com",
   github: "https://github.com/hamed75kazemii",
-  linkedin: "https://www.linkedin.com/in/hamed--kazemii",
+  linkedin: "https://www.linkedin.com/in/hamed--kazemi",
   instagram: "https://instagram.com/ilhan_kzy",
 };
 
