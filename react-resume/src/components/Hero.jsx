@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { socials } from "../data/content.js";
 import { MailIcon, GithubIcon, LinkedinIcon, InstagramIcon } from "../icons.jsx";
 
-const TYPE_COLORS = ["#4da3ff", "#c05df5", "#34d399", "#fbbf24"];
+const TYPE_COLORS = ["var(--type-1)", "var(--type-2)", "var(--type-3)", "var(--type-4)"];
 
 function useTyping(phrases) {
   const [index, setIndex] = useState(0);

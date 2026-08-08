@@ -1,9 +1,13 @@
 /* ===== Theme tokens ===== */
 :root {
-  --purple: #a934e8;
-  --purple-light: #c05df5;
-  --purple-dark: #7c3aed;
-  --blue: #4da3ff;
+  --primary: #a934e8;
+  --primary-light: #c05df5;
+  --primary-dark: #7c3aed;
+  --primary-rgb: 169, 52, 232;
+  --type-1: #4da3ff;
+  --type-2: #c05df5;
+  --type-3: #34d399;
+  --type-4: #fbbf24;
   --green: #4ade80;
   --orange: #fbbf24;
 
@@ -11,9 +15,9 @@
   --bg-alt: #262229;
   --navbar-bg: rgba(58, 45, 74, 0.92);
   --card-bg: #2a2530;
-  --card-border: rgba(169, 52, 232, 0.12);
+  --card-border: rgba(var(--primary-rgb), 0.12);
   --card-hover: #43275c;
-  --chip-bg: rgba(169, 52, 232, 0.08);
+  --chip-bg: rgba(var(--primary-rgb), 0.08);
   --skill-chip-bg: rgba(255, 255, 255, 0.06);
   --skill-chip-border: rgba(255, 255, 255, 0.14);
   --role-bg: rgba(77, 91, 168, 0.18);
@@ -21,23 +25,38 @@
   --text-muted: #b8b4be;
   --grid-line: rgba(255, 255, 255, 0.045);
   --social-bg: #2e2a35;
+  --navbar-fg: #ffffff;
+  --navbar-fg-rgb: 255, 255, 255;
+  --toggle-icon: #ffd857;
 }
 
 :root[data-theme="light"] {
-  --bg: #f7f4fb;
-  --bg-alt: #efeaf6;
-  --navbar-bg: rgba(122, 82, 170, 0.95);
+  --primary: #3b8ce8;
+  --primary-light: #2f7fd8;
+  --primary-dark: #2b6fc4;
+  --primary-rgb: 59, 140, 232;
+  --type-1: #2f7fd8;
+  --type-2: #9333ea;
+  --type-3: #059669;
+  --type-4: #b45309;
+
+  --bg: #eef3fc;
+  --bg-alt: #e6eefb;
+  --navbar-bg: rgba(190, 216, 246, 0.95);
   --card-bg: #ffffff;
-  --card-border: rgba(169, 52, 232, 0.15);
-  --card-hover: #f0e3fc;
-  --chip-bg: rgba(169, 52, 232, 0.07);
-  --skill-chip-bg: rgba(124, 58, 237, 0.06);
-  --skill-chip-border: rgba(124, 58, 237, 0.22);
-  --role-bg: rgba(96, 82, 190, 0.1);
-  --text: #241f2b;
-  --text-muted: #5d5766;
-  --grid-line: rgba(80, 40, 120, 0.05);
-  --social-bg: #e6def0;
+  --card-border: rgba(var(--primary-rgb), 0.15);
+  --card-hover: #e3edfb;
+  --chip-bg: rgba(var(--primary-rgb), 0.07);
+  --skill-chip-bg: rgba(var(--primary-rgb), 0.06);
+  --skill-chip-border: rgba(var(--primary-rgb), 0.22);
+  --role-bg: rgba(var(--primary-rgb), 0.1);
+  --text: #1f2733;
+  --text-muted: #5a6472;
+  --grid-line: rgba(40, 80, 140, 0.05);
+  --social-bg: #ffffff;
+  --navbar-fg: #1f2733;
+  --navbar-fg-rgb: 31, 39, 51;
+  --toggle-icon: #2b6fc4;
 }
 
 /* ===== Base ===== */
@@ -110,19 +129,19 @@ a {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(var(--navbar-fg-rgb), 0.35);
   background: transparent;
-  color: #fff;
+  color: var(--navbar-fg);
   transition: background 0.2s;
 }
 
 .icon-btn-active {
-  background: rgba(255, 255, 255, 0.18);
-  color: #ffd857;
+  background: rgba(var(--navbar-fg-rgb), 0.18);
+  color: var(--toggle-icon);
 }
 
 .icon-btn:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(var(--navbar-fg-rgb), 0.12);
 }
 
 .navbar-links {
@@ -133,14 +152,14 @@ a {
 .navbar-links button {
   background: none;
   border: none;
-  color: #fff;
+  color: var(--navbar-fg);
   font-size: 1.02rem;
   font-weight: 400;
   transition: color 0.2s;
 }
 
 .navbar-links button:hover {
-  color: var(--purple-light);
+  color: var(--primary-light);
 }
 
 /* ===== Hero ===== */
@@ -186,14 +205,14 @@ a {
   transform: translateX(-50%);
   width: 480px;
   height: 480px;
-  background: radial-gradient(circle, rgba(169, 52, 232, 0.22) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(var(--primary-rgb), 0.22) 0%, transparent 65%);
   pointer-events: none;
 }
 
 .hero-name {
   font-size: clamp(2.6rem, 6vw, 4rem);
   font-weight: 600;
-  color: var(--purple-light);
+  color: var(--primary-light);
   z-index: 1;
 }
 
@@ -246,24 +265,24 @@ a {
 }
 
 .btn-filled {
-  background: var(--purple);
+  background: var(--primary);
   color: #fff;
 }
 
 .btn-filled:hover {
-  background: var(--purple-dark);
+  background: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(169, 52, 232, 0.35);
+  box-shadow: 0 8px 24px rgba(var(--primary-rgb), 0.35);
 }
 
 .btn-outlined {
   background: transparent;
-  color: var(--purple-light);
-  border: 1.5px solid var(--purple);
+  color: var(--primary-light);
+  border: 1.5px solid var(--primary);
 }
 
 .btn-outlined:hover {
-  background: rgba(169, 52, 232, 0.1);
+  background: rgba(var(--primary-rgb), 0.1);
   transform: translateY(-2px);
 }
 
@@ -286,7 +305,7 @@ a {
 }
 
 .social-btn:hover {
-  background: var(--purple);
+  background: var(--primary);
   color: #fff;
   transform: translateY(-3px);
 }
@@ -305,7 +324,7 @@ a {
 .stat-value {
   font-size: 2.1rem;
   font-weight: 600;
-  color: var(--purple-light);
+  color: var(--primary-light);
 }
 
 .stat-label {
@@ -327,7 +346,7 @@ a {
   text-align: center;
   font-size: clamp(2rem, 4.5vw, 2.7rem);
   font-weight: 600;
-  color: var(--purple-light);
+  color: var(--primary-light);
   margin-bottom: 64px;
 }
 
@@ -357,8 +376,8 @@ a {
 .chip {
   padding: 8px 18px;
   border-radius: 10px;
-  border: 1px solid var(--purple);
-  color: var(--purple-light);
+  border: 1px solid var(--primary);
+  color: var(--primary-light);
   background: var(--chip-bg);
   font-size: 0.92rem;
 }
@@ -384,7 +403,7 @@ a {
 }
 
 .feature-icon {
-  color: var(--purple-light);
+  color: var(--primary-light);
 }
 
 .feature-card h3 {
@@ -429,8 +448,8 @@ a {
   width: 62px;
   height: 62px;
   border-radius: 14px;
-  background: rgba(169, 52, 232, 0.16);
-  color: var(--purple-light);
+  background: rgba(var(--primary-rgb), 0.16);
+  color: var(--primary-light);
 }
 
 .skill-card h3 {
@@ -538,13 +557,13 @@ a {
   height: 48px;
   border-radius: 50%;
   border: none;
-  background: rgba(169, 52, 232, 0.2);
-  color: var(--purple-light);
+  background: rgba(var(--primary-rgb), 0.2);
+  color: var(--primary-light);
   transition: background 0.2s, transform 0.15s;
 }
 
 .play-btn:hover {
-  background: var(--purple);
+  background: var(--primary);
   color: #fff;
   transform: scale(1.06);
 }
@@ -561,7 +580,7 @@ a {
   padding: 14px 18px;
   border-radius: 10px;
   background: var(--role-bg);
-  color: var(--purple-light);
+  color: var(--primary-light);
   font-size: 0.95rem;
   line-height: 1.6;
 }
@@ -606,7 +625,7 @@ a {
 
 .github-btn,
 .website-btn {
-  background: var(--purple);
+  background: var(--primary);
   color: #fff;
 }
 
@@ -702,14 +721,14 @@ a {
   width: 54px;
   height: 54px;
   border-radius: 14px;
-  border: 1px solid var(--purple);
+  border: 1px solid var(--primary);
   background: var(--card-bg);
-  color: var(--purple-light);
+  color: var(--primary-light);
   transition: background 0.2s, color 0.2s;
 }
 
 .scroll-top:hover {
-  background: var(--purple);
+  background: var(--primary);
   color: #fff;
 }
 
