@@ -277,28 +277,6 @@ export const projects = [
     isPrivate: true,
   },
   {
-    id: "resume",
-    title: "React Resume",
-    image: "images/resume.png",
-    date: { en: "Aug 2026", fa: "مرداد ۱۴۰۵" },
-    description: {
-      en: "Personal portfolio and resume website with dark/light themes and English/Persian support.",
-      fa: "وب‌سایت رزومه و نمونه‌کار شخصی با تم تیره/روشن و پشتیبانی دو زبانه فارسی/انگلیسی.",
-    },
-    role: {
-      en: "Frontend Developer - Built with React and Vite, bilingual RTL support, theme switching and responsive design",
-      fa: "توسعه‌دهنده فرانت‌اند - ساخته شده با React و Vite، پشتیبانی دوزبانه راست‌چین، تغییر تم و طراحی ریسپانسیو",
-    },
-    status: "done",
-    link: "https://hamed75kazemii.github.io",
-    videoUrl: "",
-    website: "https://hamed75kazemii.github.io",
-    appStore: "",
-    googlePlay: "",
-    github: "https://github.com/hamed75kazemii/hamed75kazemii.github.io",
-    isPrivate: false,
-  },
-  {
     id: "2gether",
     title: "2gether",
     image: "images/2gether.png",
