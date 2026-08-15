@@ -255,6 +255,29 @@ export const socials = {
 
 export const projects = [
   {
+    id: "whatsapp-automation",
+    title: "WhatsApp Automation",
+    image: "images/whatsapp.png",
+    date: { en: "2026", fa: "۱۴۰۵" },
+    description: {
+      en: "Smart business messaging platform for WhatsApp — send campaigns, manage contacts, schedule messages, and track daily activity from one dashboard.",
+      fa: "پلتفرم پیام‌رسانی هوشمند کسب‌وکار برای واتساپ — ارسال کمپین، مدیریت مخاطبین، زمان‌بندی پیام‌ها و پیگیری فعالیت روزانه از یک داشبورد.",
+    },
+    role: {
+      en: "Full-Stack Developer - Built with Next.js — dashboard for campaigns, contacts, scheduled messaging, and WhatsApp connection",
+      fa: "توسعه‌دهنده فول‌استک - ساخته‌شده با Next.js — داشبورد کمپین‌ها، مخاطبین، پیام‌های زمان‌بندی‌شده و اتصال واتساپ",
+    },
+    status: "dev",
+    link: "https://v0-whatsapp-automation-platform-anrblvvxc.vercel.app/",
+    videoUrl: "",
+    website: "https://v0-whatsapp-automation-platform-anrblvvxc.vercel.app/",
+    appStore: "",
+    googlePlay: "",
+    github: "",
+    isPrivate: true,
+
+  },
+  {
     id: "dopin",
     title: "Dopin",
     image: "images/dopin.png",

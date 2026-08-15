@@ -1,0 +1,9 @@
+{
+  "name": "hamed75kazemii.github.io",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix react-resume run dev",
+    "build": "npm --prefix react-resume run build && node scripts/publish-pages.js"
+  }
+}
